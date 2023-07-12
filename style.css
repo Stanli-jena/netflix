@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/* top */
+.top{
+    height: 95vh;
+    background-image:linear-gradient(rgba(37, 32, 32, 0.7),rgba(0, 0, 0, 0.6)),url(./img/top.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.header{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.nav H1{
+    font-size: 40PX;
+    font-weight: 900;
+    color: rgb(236, 26, 26);
+    background:transparent;
+    margin-top: 10px;
+}
+.right_nav{
+    display: flex;
+    gap: 22px;
+    margin-top: 15px;
+}
+.btn1{
+     display:flex;
+     align-items: center;
+     gap: 6px;
+     height: 40px;
+     padding: 0 9px;
+     background: transparent;
+     color: white;
+     border: 0.5px solid white;
+     font-size: 15px;
+}
+.btn1 img{
+    filter:contrast(5%) ;
+}
+.btn2{
+    background: red;
+    color: white;
+    height: 40px;
+    padding: 0 9px;
+    font-size: 15px;
+    font-weight: 600;
+    border: 0.5px solid transparent;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.btn2:hover{
+    background: rgb(192, 24, 24);
+}
+.text_info{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    line-height: 55px;
+    color: white;
+    position: relative;
+    top: 20%;
+}
+.text_info h2{
+    font-size: 46px;
+    font-weight: 900;
+}
+.text_info p{
+    font-size: 23px;
+    font-weight: 500;
+}
+.lower_menu{
+    position: relative;
+    top: 30%;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.lower_menu input{
+    background:transparent;
+    width: 30%;
+    border: 1px solid rgb(255, 255, 255);
+    box-sizing: border-box;
+    font-size: 16px;
+    padding: 8px;
+}
+.lower_menu button{
+    display: flex;
+    padding: 13px 16px;
+    background: red;
+    color: white;
+    border: 0.5px solid transparent;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 23px;
+    transition: 0.5s;
+}
+.lower_menu button:hover{
+    background: rgb(192, 24, 24);
+}
+
